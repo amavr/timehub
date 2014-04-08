@@ -1,11 +1,31 @@
 {
-  "name": "node-example",
+  "name": "timehub",
   "version": "0.0.1",
   "dependencies": {
-    "express": "3.1.x"
+    "express": "~3.1.2",
+    "logfmt": "~1.1.2"
   },
   "engines": {
     "node": "0.10.x",
     "npm": "1.3.x"
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "67c0df64edd795a7abb94708ef46db7721262c5d",
+  "description": "timehub\r =======\r Приложение для VK.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amavr/timehub.git"
+  },
+  "keywords": [
+    "timehub"
+  ],
+  "author": "a.mavrin",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/amavr/timehub/issues"
   }
 }
