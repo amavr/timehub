@@ -1,3 +1,3 @@
-timehub
+timehub.ru
 =======
 Приложение для VK.com
