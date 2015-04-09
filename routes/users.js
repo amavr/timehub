@@ -1,13 +1,24 @@
-﻿var express = require('express');
-var router = express.Router();
-
-//var config = require('./config/config');
-//var mongoose = require('mongoose').Mongoose;
-//db = mongoose.connect(config.conf.mongodburl)
+﻿var User = require('../models/user').User;
 
 /* GET users listing. */
-router.get('/', function (req, res) {
-    res.send('respond with a resource');
-});
+exports.get = function (req, res) {
+    
+    var user = new User();
+    user.email = 'test1@abc.ru';
+    user.save(function (err) {
+        console.log('user.save');
+        console.log(arguments)
+    });
 
-module.exports = router;
+    var x = User.find({}, function (data) {
+        console.log('User.find');
+        console.log(data);
+    });
+    console.log(x)
+
+    res.send('Users page GET');
+}
+
+exports.post = function (req, res) {
+    res.send('Users page POST');
+}
