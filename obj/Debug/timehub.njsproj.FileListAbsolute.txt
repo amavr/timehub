@@ -1,0 +1,2 @@
+C:\Projects\node.js\timehub\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Projects\node.js\timehub\obj\Debug\timehub.njsprojResolveAssemblyReference.cache
